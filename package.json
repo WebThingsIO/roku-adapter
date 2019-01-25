@@ -1,7 +1,7 @@
 {
   "name": "roku-adapter",
   "display_name": "Roku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Roku adapter for Mozilla IoT Gateway",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,66 @@
+{
+  "name": "roku-adapter",
+  "display_name": "Roku",
+  "version": "0.0.1",
+  "description": "Roku adapter for Mozilla IoT Gateway",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-iot/roku-adapter.git"
+  },
+  "keywords": [
+    "mozilla",
+    "iot",
+    "adapter",
+    "roku"
+  ],
+  "author": "Mozilla IoT",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla-iot/roku-adapter/issues"
+  },
+  "homepage": "https://github.com/mozilla-iot/roku-adapter#readme",
+  "dependencies": {
+    "roku-client": "^3.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
+  },
+  "files": [
+    "LICENSE",
+    "SHA256SUMS",
+    "index.js",
+    "lib/roku-adapter.js",
+    "lib/roku-device.js",
+    "lib/roku-property.js",
+    "node_modules"
+  ],
+  "moziot": {
+    "api": {
+      "min": 2,
+      "max": 2
+    },
+    "plugin": true,
+    "exec": "{nodeLoader} {path}",
+    "config": {
+      "devices": []
+    },
+    "schema": {
+      "type": "object",
+      "required": [
+        "devices"
+      ],
+      "properties": {
+        "devices": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

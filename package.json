@@ -2,7 +2,7 @@
   "name": "roku-adapter",
   "display_name": "Roku",
   "version": "0.0.2",
-  "description": "Roku adapter for Mozilla IoT Gateway",
+  "description": "Roku adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."

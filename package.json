@@ -1,7 +1,7 @@
 {
   "name": "roku-adapter",
   "display_name": "Roku",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Roku adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
@@ -25,19 +25,21 @@
   "homepage": "https://github.com/mozilla-iot/roku-adapter#readme",
   "dependencies": {
     "ip-regex": "^4.1.0",
-    "roku-client": "^3.1.5"
+    "roku-client": "^3.1.6"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.1.0"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1"
   },
   "files": [
     "LICENSE",
+    "README.md",
     "SHA256SUMS",
     "index.js",
     "lib/roku-adapter.js",
     "lib/roku-device.js",
     "lib/roku-property.js",
+    "manifest.json",
     "node_modules"
   ],
   "moziot": {

@@ -1,28 +1,28 @@
 {
   "name": "roku-adapter",
-  "version": "0.2.1",
-  "description": "Roku adapter for Mozilla WebThings Gateway",
+  "version": "0.2.2",
+  "description": "Roku adapter for WebThings Gateway",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla-iot/roku-adapter.git"
+    "url": "git+https://github.com/WebThingsIO/roku-adapter.git"
   },
-  "author": "Mozilla IoT",
+  "author": "WebThingsIO",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/mozilla-iot/roku-adapter/issues"
+    "url": "https://github.com/WebThingsIO/roku-adapter/issues"
   },
-  "homepage": "https://github.com/mozilla-iot/roku-adapter#readme",
+  "homepage": "https://github.com/WebThingsIO/roku-adapter#readme",
   "dependencies": {
-    "ip-regex": "^4.1.0",
-    "roku-client": "^3.2.0"
+    "ip-regex": "^4.2.0",
+    "roku-client": "^4.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0"
+    "eslint": "^7.10.0"
   },
   "files": [
     "LICENSE",

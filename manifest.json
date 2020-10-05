@@ -1,6 +1,6 @@
 {
-  "author": "Mozilla IoT",
-  "description": "Roku adapter for Mozilla WebThings Gateway",
+  "author": "WebThingsIO",
+  "description": "Roku adapter for WebThings Gateway",
   "gateway_specific_settings": {
     "webthings": {
       "exec": "{nodeLoader} {path}",
@@ -9,7 +9,7 @@
       "strict_min_version": "0.10.0"
     }
   },
-  "homepage_url": "https://github.com/mozilla-iot/roku-adapter#readme",
+  "homepage_url": "https://github.com/WebThingsIO/roku-adapter#readme",
   "id": "roku-adapter",
   "license": "MPL-2.0",
   "manifest_version": 1,
@@ -35,5 +35,5 @@
     }
   },
   "short_name": "Roku",
-  "version": "0.2.1"
+  "version": "0.2.2"
 }

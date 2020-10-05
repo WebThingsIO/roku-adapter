@@ -1,6 +1,6 @@
 # roku-adapter
 
-Roku adapter for the [Mozilla WebThings Gateway](https://iot.mozilla.org).
+Roku adapter for the [WebThings Gateway](https://github.com/WebThingsIO/gateway).
 
 Lets the gateway interact with Roku devices.
 
